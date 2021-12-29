@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;0,800;1,200;1,400;1,600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #dcf0f8;
+}
+.calendar{
+   padding: 20px 40px;
+
+}
+.months-container{
+    justify-content: center;
+    gap: 40px;
+}
+.calendar .months-container .month-container{
+    background: #fff;
+    padding: 20px;
+    min-width: 15px 15px 40px rgba(0,0,0,0.15);
+    font-family: 'Montserrat', sans-serif;
+}
+.calendar table.month th.month-title{
+    color: #528b94;
+    font-size: 1.9em;
+    font-weight: 200;
+    font-family: cursive;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+table.month td:first-child,
+table.month td:last-child,
+table.month thead tr:nth-child(2) th:first-child,
+table.month thead tr:nth-child(2) th:last-child{
+    color: #f75c90; 
+}
+
+.calendar table.month td.day .day-content
+{
+    padding: 6px 8px;
+}
+.calendar table.month th.day-header{
+    color: #777;
+    font-size: 0.9em;
+    font-weight: 700;
+}
+.month  tr td{
+    font-size: 0.9em;
+    font-weight: 500;
+    color: #777;
+}
+table.month td.day .day-content:hover{
+    background: #f75c90;
+    color: #fff;
+}
